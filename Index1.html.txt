@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhavya Samrajya Banquets & Hall</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    /* Reset and Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+    /* HERO SECTION */
+    .hero {
+      position: relative;
+      height: 100vh;
+      /* Background image: update the file name as needed */
+      background: url('uGXD26y79EMh17NuWmqFB.jpeg') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+    }
+    /* Dark Overlay for Better Readability */
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+    .hero h2 {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+    }
+    .hero p {
+      font-size: 1.1em;
+      margin-bottom: 1em;
+      line-height: 1.5;
+    }
+    .book-now-btn {
+      display: inline-block;
+      background: #ff5722;
+      color: #fff;
+      padding: 15px 25px;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 1em;
+      transition: background 0.3s ease;
+    }
+    .book-now-btn:hover {
+      background: #e64a19;
+    }
+    /* Wedding Couple Overlay Image (AI Generated) */
+    .wedding-couple {
+      position: absolute;
+      bottom: 10%;
+      right: 5%;
+      width: 300px;
+      z-index: 3;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    /* GALLERY SECTION */
+    .gallery {
+      padding: 40px 20px;
+      background: #f9f9f9;
+      text-align: center;
+    }
+    .gallery h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .gallery-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .gallery-grid img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2em;
+      }
+      .wedding-couple {
+        width: 200px;
+        bottom: 5%;
+        right: 5%;
+      }
+      .gallery-grid img {
+        width: 250px;
+        height: 170px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Bhavya Samrajya Banquets & Hall</h1>
+      <h2>हा प्रकल्प पार्हड डेकोरेटर्स द्वारा</h2>
+      <p>
+        Welcome to Bhavya Samrajya Banquets & Lawns – a majestic venue for grand celebrations.<br>
+        Presenting a Rajwada-style experience, our facility features a lavish banquet hall, garden seating for 2000+ chairs,<br>
+        a spacious dining hall, and 2.5 acres of parking. Perfect for weddings, birthday parties, and corporate receptions.<br>
+        Address: Kasari Phata, PMRDA Near Talegaon Dhamdhere Road, Shikrapur, Tal-Shirur, Dist-Pune<br>
+        Contact: 9850775748
+      </p>
+      <a href="contact.html" class="book-now-btn"><i class="fa-solid fa-book"></i> Book Now</a>
+    </div>
+    <!-- Overlay AI Generated Wedding Couple Image -->
+    <img src="wedding-couple.jpg" alt="Wedding Couple" class="wedding-couple" />
+  </section>
+
+  <!-- Gallery Section (Display Additional Images) -->
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <!-- Wedding Mandap Setup Image -->
+      <img src="mandap-setup.jpg" alt="Wedding Mandap Setup" />
+      <!-- Decorated Stage (Wedding Mandap) Image -->
+      <img src="decorated-stage.jpg" alt="Decorated Stage at the Mandap" />
+      <!-- (Optional) Re-display the AI Generated Wedding Couple Image -->
+      <img src="wedding-couple.jpg" alt="Wedding Couple" />
+    </div>
+  </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Bhavya Samrajya Banquets & Hall</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .contact-container {
+      background: #fff;
+      padding: 30px;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      border-radius: 8px;
+    }
+    .contact-container h1 {
+      margin-bottom: 20px;
+    }
+    .contact-number {
+      font-size: 24px;
+      margin-top: 10px;
+      color: #ff5722;
+    }
+    .back-link {
+      margin-top: 20px;
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      background-color: #007BFF;
+      padding: 10px 20px;
+      border-radius: 4px;
+      transition: background 0.3s ease;
+    }
+    .back-link:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-container">
+    <h1>Contact Us</h1>
+    <p>For inquiries and booking, please call:</p>
+    <p class="contact-number">9850775748</p>
+    <a href="index.html" class="back-link">Back to Home</a>
+  </div>
+</body>
+</html>
